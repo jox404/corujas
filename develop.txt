@@ -1,5 +1,21 @@
-criado na develop
-Novo Bug!
-Bug Novo!
-solicitando request!
-novas atualizações do Jefferson
+git init
+git add nomeArquivo.ext
+git add . //para add todos
+git commit -m "mensagem"
+git remote add origin URL// do repositorio
+git push -u origin master
+
+git branch nomeDaBranch // develop
+git checkout nomeDaBranch // develop
+
+MODIFICAÇÕES E NOVOS ARQUIVOS CRIADOS
+
+git add nomeArquivo.ext
+git add . //para add todos
+git commit -m "mensagem"
+git push -u origin nomeDaBranch // develop
+
+
+COMANDOS PARA TRABALHOS EM GRUPO
+PR-Uma pr é uma solicitação para o gerente do progeto subir suas alteracções
+git pull origin nomeDaBranch // para pegar comentarios da benche escolhida sem sair da branch que você está
