@@ -1,0 +1,101 @@
+body {
+	text-align: left;
+    /*font-family: 'Kumbh Sans', sans-serif;*/
+    background-color: #9d9c88;
+}
+a{
+  cursor:pointer;
+  color:black;
+}
+/*Menu*/
+nav#menu {
+	margin: 0px 40px 0px 40px;
+    text-decoration: none;
+    background-image: url("../_imagens/coruja1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: solid 1px #ffffff;
+    height: 123px;
+    width:1250px;
+}
+nav#menu li{
+	color: #ffffff;
+	display: inline-block;
+	position: relative;
+	margin: 4px;
+	padding:6px 6px 4px 6px;
+	transition: 0.3s;
+}
+nav#menu li:hover{
+	background-color: rgba(215,215,215,.5);
+	cursor:pointer;
+	border-radius: 5px;
+}
+/*Interface*/
+div#interface{
+	box-shadow: rgba(0,0,0,.5);
+	border: solid 1px #606060;
+	margin: auto 40px 2px 40px;
+	padding-bottom: 0px;
+}
+/*section*/
+section#corpo {
+	float: left;
+	background-image: url("../_imagens/coruja-na-floresta-enevoada_24381-251.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 65%;
+	margin-right: -50px;
+	padding: 10px;
+	border-right: solid #ffffff;
+}
+section#corpo h1{
+    font-family: 'Karla', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	color: #ffec95;
+	text-shadow: 1px 2px #000000;
+}
+section#corpo h2{
+   text-align: center;
+   color: #fff6ec;
+   background-color: rgba(0,0,0,.7);
+   border: solid 1px #515145;
+   border-radius: 5px;
+}
+div.p{
+   text-align: justify;
+   color: #fff6ec;
+   background-color: rgba(0,0,0,.7);
+   padding: 10PX;
+   margin: 5px;
+   border: solid 1px #515145;
+   border-radius: 5px;
+}
+div.p p{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 12pt;
+}
+div.p h2{
+    font-family: 'Roboto Mono', monospace;
+}
+/*aside Lateral direita*/
+aside#lateral-direita {
+	position: absolute;
+	float: right;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width:30.8%;
+	margin-left: -50px;
+	padding: 10px;
+}
+
+/*Footer*/
+footer {
+	text-align:center;
+	clear: both;
+	border-top: 1px solid #080806;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	background-color: #504f3b;
+}
