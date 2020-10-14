@@ -18,4 +18,4 @@ git push -u origin nomeDaBranch // develop
 
 COMANDOS PARA TRABALHOS EM GRUPO
 PR-Uma pr é uma solicitação para o gerente do progeto subir suas alteracções
-git pull origin nomeDaBranch // para pegar comentarios da benche escolhida sem sair da branch que você está
+git pull origin nomeDaBranch // para pegar comentarios da benche escolhida sem sair da branch que você está   
