@@ -1,4 +1,4 @@
-git init
+git init 
 git add nomeArquivo.ext
 git add . //para add todos
 git commit -m "mensagem"
